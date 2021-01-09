@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+@mixin large-text {
+    font: {
+      family: Arial;
+      size: 20px;
+      weight: bold;
+    }
+  }
+@mixin change-color($color){
+    color: $color;
+}
+.is-js{
+    @include change-color(lightblue)
+}
+  thead {
+      @include large-text;
+  }
+  #table{
+    visibility: hidden;
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Azertium_IT Prueba</title>
+</head>
+
+<body>
+  <script defer src="../dist/main.js"></script>
+
+
+  <div>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">Azertium_IT</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="form-inline my-2 my-sm-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" id="param" aria-label="Search" value="framework">
+          <button class="btn btn-outline-success my-2 my-sm-0" onclick="launchQuery()">Buscar</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div>
+    <table class="table" id="table">
+      <thead>
+        <th>Nombre repositorio</th>
+        <th>Url Repositorio</th>
+      </thead>
+      <tbody id = 'tableBody'>
+
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
